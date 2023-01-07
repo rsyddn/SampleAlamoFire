@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "49B149AE-6BF4-4DA6-A325-21F8CE329C70"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FB5D538-D4F9-496C-BEF6-E0C3DC8F38A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleAlamoFire/ViewModels/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F946DE8-0856-4F18-8B3C-AF373FDE45B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleAlamoFire/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "executeQuery(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5659C74F-B147-457D-97CE-1575B069F835"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleAlamoFire/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "executeQuery(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87C3DD65-9A52-4512-94C7-946C1BA925DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleAlamoFire/ViewModels/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58B2C0AB-BB69-4D24-9CD8-14A0F1949C8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleAlamoFire/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "executeQuery(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62ABF873-8713-4843-B0F4-24E97D03E57D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleAlamoFire/ViewModels/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "getUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62ABF873-8713-4843-B0F4-24E97D03E57D - aa9d5bff7c4e0c87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;SampleAlamoFire.UserResponse&gt;) -&gt; () in SampleAlamoFire.UserViewModel.getUser() -&gt; ()"
+                  moduleName = "SampleAlamoFire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rasyid/XCodeProjects/SampleAlamoFire/SampleAlamoFire/ViewModels/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "62ABF873-8713-4843-B0F4-24E97D03E57D - aa9d5bff7c4e0c87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;SampleAlamoFire.UserResponse&gt;) -&gt; () in SampleAlamoFire.UserViewModel.getUser() -&gt; ()"
+                  moduleName = "SampleAlamoFire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rasyid/XCodeProjects/SampleAlamoFire/SampleAlamoFire/ViewModels/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C92984FC-4B8E-4A02-80C3-833E7295A06B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleAlamoFire/Config/Network/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "callAPI(serverURL:strURL:queryItems:method:headers:parameters:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C92984FC-4B8E-4A02-80C3-833E7295A06B - 66b974cdff513b45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleAlamoFire.ApiManager.callAPI(serverURL: Swift.Optional&lt;Swift.String&gt;, strURL: Swift.String, queryItems: Swift.Optional&lt;Swift.Array&lt;Foundation.URLQueryItem&gt;&gt;, method: Alamofire.HTTPMethod, headers: Swift.Optional&lt;Alamofire.HTTPHeaders&gt;, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, success: (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; (), failure: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SampleAlamoFire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rasyid/XCodeProjects/SampleAlamoFire/SampleAlamoFire/Config/Network/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1524">
+               </Location>
+               <Location
+                  uuid = "C92984FC-4B8E-4A02-80C3-833E7295A06B - b2676c5bbb229e44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in SampleAlamoFire.ApiManager.callAPI(serverURL: Swift.Optional&lt;Swift.String&gt;, strURL: Swift.String, queryItems: Swift.Optional&lt;Swift.Array&lt;Foundation.URLQueryItem&gt;&gt;, method: Alamofire.HTTPMethod, headers: Swift.Optional&lt;Alamofire.HTTPHeaders&gt;, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, success: (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; (), failure: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SampleAlamoFire"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rasyid/XCodeProjects/SampleAlamoFire/SampleAlamoFire/Config/Network/ApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E7D5C29-EE04-4CA4-95A9-87969AF3BAC8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleAlamoFire/Config/Network/ApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getListUser(success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92E9A0D1-87B7-452F-8EFA-3EF4F15CFD64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleAlamoFire/ViewModels/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "createLogin(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
