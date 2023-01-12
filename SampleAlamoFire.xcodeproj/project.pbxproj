@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4FD3AC974385AFCC5329245F /* Pods_SampleAlamoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ED2E15803D501E74A4D1AF /* Pods_SampleAlamoFire.framework */; };
+		D35A019A296FB99500074262 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A0199296FB99500074262 /* TokenResponse.swift */; };
+		D35A019C296FBB2E00074262 /* SignatureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A019B296FBB2E00074262 /* SignatureHelper.swift */; };
+		D35A019E296FBB9100074262 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A019D296FBB9100074262 /* DateHelper.swift */; };
+		D35A01A0296FBBCA00074262 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A019F296FBBCA00074262 /* SampleView.swift */; };
+		D35A01A2296FBC4500074262 /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A01A1296FBC4500074262 /* SampleViewModel.swift */; };
+		D35A01A4296FBCC700074262 /* SampleApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A01A3296FBCC700074262 /* SampleApiService.swift */; };
+		D35A01A6296FBF8400074262 /* TransactionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A01A5296FBF8400074262 /* TransactionHelper.swift */; };
 		D37418C22968A4000088091D /* SampleUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37418C12968A4000088091D /* SampleUrl.swift */; };
 		D37418C52968ACD30088091D /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37418C42968ACD30088091D /* UserResponse.swift */; };
 		D37ABF61296947A9001B414E /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37ABF60296947A9001B414E /* UserView.swift */; };
@@ -33,6 +40,13 @@
 		17ED2E15803D501E74A4D1AF /* Pods_SampleAlamoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAlamoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		353A58DD125392256D6FC971 /* Pods-SampleAlamoFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAlamoFire.debug.xcconfig"; path = "Target Support Files/Pods-SampleAlamoFire/Pods-SampleAlamoFire.debug.xcconfig"; sourceTree = "<group>"; };
 		76A330BC696F4F09BA10E621 /* Pods-SampleAlamoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAlamoFire.release.xcconfig"; path = "Target Support Files/Pods-SampleAlamoFire/Pods-SampleAlamoFire.release.xcconfig"; sourceTree = "<group>"; };
+		D35A0199296FB99500074262 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		D35A019B296FBB2E00074262 /* SignatureHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureHelper.swift; sourceTree = "<group>"; };
+		D35A019D296FBB9100074262 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		D35A019F296FBBCA00074262 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		D35A01A1296FBC4500074262 /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
+		D35A01A3296FBCC700074262 /* SampleApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApiService.swift; sourceTree = "<group>"; };
+		D35A01A5296FBF8400074262 /* TransactionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHelper.swift; sourceTree = "<group>"; };
 		D37418C12968A4000088091D /* SampleUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUrl.swift; sourceTree = "<group>"; };
 		D37418C42968ACD30088091D /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		D37ABF60296947A9001B414E /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
@@ -84,12 +98,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D35A0198296FB95F00074262 /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				D35A0199296FB99500074262 /* TokenResponse.swift */,
+			);
+			path = Token;
+			sourceTree = "<group>";
+		};
 		D37418BC29689B400088091D /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				D37418C12968A4000088091D /* SampleUrl.swift */,
 				D38643FA2969BE0A00F83930 /* ApiManager.swift */,
 				D38643FC2969BE1300F83930 /* ApiService.swift */,
+				D35A01A3296FBCC700074262 /* SampleApiService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -97,6 +120,7 @@
 		D37418C32968ABD10088091D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D35A0198296FB95F00074262 /* Token */,
 				D38644122969DEBC00F83930 /* Login */,
 				D38644112969DEB000F83930 /* User */,
 			);
@@ -109,6 +133,7 @@
 				D38644052969C59400F83930 /* UserViewModel.swift */,
 				D386440D2969D35B00F83930 /* UserListViewModel.swift */,
 				D38644172969DFB700F83930 /* LoginViewModel.swift */,
+				D35A01A1296FBC4500074262 /* SampleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -120,6 +145,7 @@
 				D37ABF60296947A9001B414E /* UserView.swift */,
 				D386440B2969D22200F83930 /* UserListView.swift */,
 				D38644192969E02100F83930 /* LoginView.swift */,
+				D35A019F296FBBCA00074262 /* SampleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,6 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				D38643FF2969C29500F83930 /* EncodeableExtentions.swift */,
+				D35A019B296FBB2E00074262 /* SignatureHelper.swift */,
+				D35A019D296FBB9100074262 /* DateHelper.swift */,
+				D35A01A5296FBF8400074262 /* TransactionHelper.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -314,20 +343,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35A01A6296FBF8400074262 /* TransactionHelper.swift in Sources */,
 				D38644022969C3F300F83930 /* AppDelegate.swift in Sources */,
 				D38644002969C29500F83930 /* EncodeableExtentions.swift in Sources */,
 				D3DF158329689846004424B1 /* SampleAlamoFireApp.swift in Sources */,
 				D38644082969CF8A00F83930 /* HomeView.swift in Sources */,
+				D35A019A296FB99500074262 /* TokenResponse.swift in Sources */,
+				D35A019E296FBB9100074262 /* DateHelper.swift in Sources */,
 				D38644182969DFB700F83930 /* LoginViewModel.swift in Sources */,
 				D37418C52968ACD30088091D /* UserResponse.swift in Sources */,
+				D35A01A4296FBCC700074262 /* SampleApiService.swift in Sources */,
 				D38644142969DECD00F83930 /* LoginRequest.swift in Sources */,
 				D37418C22968A4000088091D /* SampleUrl.swift in Sources */,
 				D38643FB2969BE0A00F83930 /* ApiManager.swift in Sources */,
 				D386440C2969D22200F83930 /* UserListView.swift in Sources */,
+				D35A01A2296FBC4500074262 /* SampleViewModel.swift in Sources */,
 				D386441A2969E02100F83930 /* LoginView.swift in Sources */,
 				D38643FD2969BE1300F83930 /* ApiService.swift in Sources */,
 				D386440E2969D35B00F83930 /* UserListViewModel.swift in Sources */,
 				D386440A2969D1C900F83930 /* UserListResponse.swift in Sources */,
+				D35A01A0296FBBCA00074262 /* SampleView.swift in Sources */,
+				D35A019C296FBB2E00074262 /* SignatureHelper.swift in Sources */,
 				D38644062969C59400F83930 /* UserViewModel.swift in Sources */,
 				D37ABF61296947A9001B414E /* UserView.swift in Sources */,
 				D38644162969DF0900F83930 /* LoginResponse.swift in Sources */,

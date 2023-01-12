@@ -12,7 +12,7 @@ class UserViewModel: ObservableObject {
     @Published var data : UserData?
     
     func getUser() {
-        APIServices.shared.getUser() { response in
+        ApiService.shared.getUser() { response in
             if let response = response {
                 self.data = response.data
             }

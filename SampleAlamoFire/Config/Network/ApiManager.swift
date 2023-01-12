@@ -32,7 +32,7 @@ public class ApiManager {
         var finalURL = serverURL ?? ""
 
         if let serverURL = serverURL, serverURL == "" {
-            finalURL = SampleUrl.baseUrl
+            finalURL = SampleUrl.reqresBaseUrl
         }
 
         guard var url = URLComponents(string: "\(finalURL)\(strURL)") else {
@@ -47,6 +47,7 @@ public class ApiManager {
         // Network request
         AF.request(url, method: method, parameters: parameters, encoding: JSONEncoding.default, headers: headers)
             .responseJSON { response in
+                print("ERROR CODE: \(response.response?.statusCode as Any)")
                 switch response.result {
                 case .success:
                     success(response)

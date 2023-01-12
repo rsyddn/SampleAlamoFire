@@ -16,7 +16,7 @@ class LoginViewModel: ObservableObject {
     @Published var isCanLogin = false
     
     func createLogin(request: LoginRequest) {
-        APIServices.shared.callCreateLogin(parameters: request.dictionary ?? [:]) { response in
+        ApiService.shared.callCreateLogin(parameters: request.dictionary ?? [:]) { response in
             if response != nil {
                 self.isCanLogin = true
             }

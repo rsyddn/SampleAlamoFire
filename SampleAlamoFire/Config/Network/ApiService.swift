@@ -8,8 +8,8 @@
 import Alamofire
 import Foundation
 
-struct APIServices {
-    public static let shared = APIServices()
+struct ApiService {
+    public static let shared = ApiService()
     
     func callCreateLogin(queryItems: [URLQueryItem]? = nil, parameters: Parameters? = nil, success: @escaping (_ result: LoginResponse?) -> Void, failure: @escaping (_ failureMsg: FailureMessage) -> Void) {
         var headers = HTTPHeaders()
